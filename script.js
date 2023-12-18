@@ -14,11 +14,11 @@ pipeUp.src = "https://github.com/bulat30/school/blob/main/img/pipeUp.png?raw=tru
 pipeBottom.src = "https://github.com/bulat30/school/blob/main/img/pipeBottom.png?raw=true";
 
 // Звуковые файлы
-var fly = new Audio();
-var score_audio = new Audio();
+//var fly = new Audio();
+//var score_audio = new Audio();
 
-fly.src = "https://github.com/bulat30/school/blob/main/audio/fly.mp3?raw=true";
-score_audio.src = "https://github.com/bulat30/school/blob/main/audio/score.mp3?raw=true";
+//fly.src = "https://github.com/bulat30/school/blob/main/audio/fly.mp3?raw=true";
+//score_audio.src = "https://github.com/bulat30/school/blob/main/audio/score.mp3?raw=true";
 
 var gap = 90;
 
@@ -27,7 +27,7 @@ document.addEventListener("keydown", moveUp);
 
 function moveUp() {
  yPos -= 35;
- fly.play();
+ //fly.play();
 }
 
 // Создание блоков
@@ -70,7 +70,7 @@ function draw() {
 
  if(pipe[i].x == 5) {
  score++;
- score_audio.play();
+ //score_audio.play();
  }
  }
 
