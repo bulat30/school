@@ -7,18 +7,18 @@ var fg = new Image();
 var pipeUp = new Image();
 var pipeBottom = new Image();
 
-bird.src = "img/bird.png";
-bg.src = "img/bg.png";
-fg.src = "img/fg.png";
-pipeUp.src = "img/pipeUp.png";
-pipeBottom.src = "img/pipeBottom.png";
+bird.src = "https://github.com/bulat30/school/blob/main/img/bird.png";
+bg.src = "https://github.com/bulat30/school/blob/main/img/bg.png";
+fg.src = "https://github.com/bulat30/school/blob/main/img/fg.png";
+pipeUp.src = "https://github.com/bulat30/school/blob/main/img/pipeUp.png";
+pipeBottom.src = "https://github.com/bulat30/school/blob/main/img/pipeBottom.png";
 
 // Звуковые файлы
 var fly = new Audio();
 var score_audio = new Audio();
 
-fly.src = "audio/fly.mp3";
-score_audio.src = "audio/score.mp3";
+fly.src = "https://github.com/bulat30/school/blob/main/audio/fly.mp3";
+score_audio.src = "https://github.com/bulat30/school/blob/main/audio/score.mp3";
 
 var gap = 90;
 
