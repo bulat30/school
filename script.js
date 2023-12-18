@@ -7,18 +7,18 @@ var fg = new Image();
 var pipeUp = new Image();
 var pipeBottom = new Image();
 
-bird.src = "https://github.com/bulat30/school/blob/main/img/bird.png";
-bg.src = "https://github.com/bulat30/school/blob/main/img/bg.png";
-fg.src = "https://github.com/bulat30/school/blob/main/img/fg.png";
-pipeUp.src = "https://github.com/bulat30/school/blob/main/img/pipeUp.png";
-pipeBottom.src = "https://github.com/bulat30/school/blob/main/img/pipeBottom.png";
+bird.src = "https://github.com/bulat30/school/blob/main/img/bird.png?raw=true";
+bg.src = "https://github.com/bulat30/school/blob/main/img/bg.png?raw=true";
+fg.src = "https://github.com/bulat30/school/blob/main/img/fg.png?raw=true";
+pipeUp.src = "https://github.com/bulat30/school/blob/main/img/pipeUp.png?raw=true";
+pipeBottom.src = "https://github.com/bulat30/school/blob/main/img/pipeBottom.png?raw=true";
 
 // Звуковые файлы
 var fly = new Audio();
 var score_audio = new Audio();
 
-fly.src = "https://github.com/bulat30/school/blob/main/audio/fly.mp3";
-score_audio.src = "https://github.com/bulat30/school/blob/main/audio/score.mp3";
+fly.src = "https://github.com/bulat30/school/blob/main/audio/fly.mp3?raw=true";
+score_audio.src = "https://github.com/bulat30/school/blob/main/audio/score.mp3?raw=true";
 
 var gap = 90;
 
